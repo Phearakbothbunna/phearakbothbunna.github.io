@@ -10,12 +10,12 @@ const About = () => {
                 <div className="mx-auto" style={{maxWidth: "900px"}}>
                     <p className="mt-3 fs-5">
                     I’m <strong>Phearak Both Bunna</strong>, a master’s student in Computer Science with a strong background in
-                    <strong>technical support</strong>, <strong>web and app development</strong>, and <strong>data
+                    <strong> technical support</strong>, <strong>web/mobile app development</strong>, and <strong>data
                         analysis</strong>.
                     With expertise in <strong>Python</strong>, <strong>SQL</strong>, and <strong>React</strong>, I specialize in
                     delivering
                     innovative and scalable solutions to complex technical challenges. My experience spans developing
-                    <strong>full-stack applications</strong>, optimizing IT workflows, and leveraging data-driven approaches to
+                    <strong> full-stack applications</strong>, optimizing IT workflows, and leveraging data-driven approaches to
                     solve real-world problems.
                     </p>
                 </div>
