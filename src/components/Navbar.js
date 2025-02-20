@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react";
 
 const Navbar = () => {
+    
     return (
         <nav className="navbar navbar-expand-lg bg-light sticky-top fs-5 custom-navbar">
             <a className="navbar-brand mx-3" href="#">
