@@ -2,52 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import animations from "./animation";
 
-
-// const skillInfo = [
-//     // Programming languages
-//     {
-//         title: "Programming Languages",
-//         items: [
-//             {icon: "bi bi-code-slash" , text: "Python"},
-//             {icon: "bi bi-database", text: "SQL"},
-//             {icon: "bi bi-braces", text: "JavaScript"},
-//             {icon: "bi bi-filetype-html", text: "HTML"},
-//             {icon: "bi bi-filetype-css", text: "CSS"}
-//         ]
-
-//     },
-
-//     // Technical skills
-//     {
-//         title: "Technical Skills",
-//         items: [
-//             {icon: "bi bi-tools" , text: "Technical Support & Troubleshooting"},
-//             {icon: "bi bi-pc-display", text: "Helpdesk Operations"},
-//             {icon: "bi bi-graph-up-arrow", text: "Data Analytics"},
-//             {icon: "bi bi-globe", text: " Web/Mobile App Development"},
-//         ]
-//     },
-
-//     //  Tools & Tech
-//     {
-//         title: "Tools & Technologies",
-//         items: [
-//             {icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" , text: "React"},
-//             {icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg", text: "Azure"},
-//             {icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg", text: "Jira"},
-//         ]
-//     },
-
-//     // Certifications
-//     {
-//         title: "Certifications",
-//         items: [
-//             {icon: "bi bi-patch-check-fill fs-3" , text: "Google Cloud Essentials"},
-//             {icon: "bi bi-patch-check fs-3", text: "CompTIA A+ (In-progress)"},
-//         ]
-//     },    
-// ]
-
 const Skills = () => {
     return (
         <motion.section
