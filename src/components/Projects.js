@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion"
+import animations from "./animation";
 
-const projects = [
+const projectInfo = [
     {
         image: "images/emotionDetect.png",
         title: "Real-Time Emotion Detection",
@@ -22,25 +23,12 @@ const projects = [
     }
 ];
 
-const cardVariants = {
-    hidden: { opacity: 0, x: -50 },
-    visible: (index) => ({
-        opacity: 1,
-        x: 0,
-        transition: {
-            delay: index * 0.3,
-            duration: 0.6,
-            ease: "easeOut"
-        }
-    })
-};
-
 const Projects = () => (
     <section id="projects" className="py-5">
         <div className="container text-center">
             <h2 className="fw-bold mb-4">Projects</h2>
             <div className="row">
-                {projects.map((project, index) => (
+                {projectInfo.map((project, index) => (
                     <motion.div
                         key={index}
                         className="col-md-4 mb-4"
@@ -48,7 +36,7 @@ const Projects = () => (
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ amount: 0.2 }}
-                        variants={cardVariants}
+                        variants={animations.staggeredSlideIn}
                     >
                         <div className="card h-100">
                             <img src={project.image} className="card-img-top project-image" alt={project.title} />
